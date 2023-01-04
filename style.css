@@ -1,0 +1,55 @@
+button {
+  width: 70px;
+  height: 40px;
+  border: none;
+  color: white;
+  font-size: 15px;
+  font-style: italic;
+  cursor: pointer;
+}
+.circle {
+  width: 100px;
+  height: 100px;
+  border: 2px solid gray;
+  margin: 50px auto;
+  border-radius: 50%;
+}
+.buttons {
+  display: flex;
+  justify-content: center !important;
+  gap: 10px;
+  margin-bottom: 100px;
+}
+.bth_red {
+  background-color: red;
+}
+.bth_green {
+  background-color: green;
+}
+.bth_blue {
+  background-color: blue;
+}
+.circle.activeRed {
+  background-color: red;
+}
+.circle.activeBlue {
+  background-color: blue;
+}
+.circle.activeGreen {
+  background-color: green;
+}
+.button2 {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 100px;
+}
+.btnArr {
+  width: 70px;
+  height: 40px;
+  border: none;
+  color: white;
+  font-size: 15px;
+  font-style: italic;
+  cursor: pointer;
+}
